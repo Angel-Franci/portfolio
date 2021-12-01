@@ -1,0 +1,49 @@
+body {
+    background-image: url(photos/wood.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 80%;
+}
+
+.search-bar-container {
+    margin-left: 25%;
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#search {
+    width: 100%;
+    height: 100%;
+    outline-style: none;
+}
+
+.gallery {
+    display: grid;
+    grid-gap: 15px ;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) ;
+    grid-template-rows: repeat(auto-fit, minmax(180px, 1fr));
+    margin-left: 5%;
+    width: 90%;
+    padding-top: 5px;
+}
+
+.gallery img {
+    border: black 3px solid;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    width: 35%;
+    text-align: center;
+    margin: 25px 0px 25px 32.5%;
+    font-size: 75px;
+    color: rgb(247, 247, 233);
+    background-color: rgba(141, 118, 60, 0.97);
+}
